@@ -1,0 +1,12 @@
+<input type="text" (keyup.enter)="createPost(title)" #title class="form-control">
+
+<!--<ul *ngFor='let post of posts'>
+    <li >
+        {{post.title}}
+    </li>
+</ul> -->
+<ul class="group-items">
+    <li class="list-items"  *ngFor='let post of posts'>
+        {{post.title}}
+    </li>
+</ul>
